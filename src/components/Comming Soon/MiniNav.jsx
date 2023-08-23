@@ -11,7 +11,7 @@ const MiniNav = () => {
       <h1>
         J
         {nameLogo}
-        bhunters
+        bhuntters
       </h1>
       <Link href="/">
         {router.pathname === '/coming-soon' && 'Back to Home Page' }
