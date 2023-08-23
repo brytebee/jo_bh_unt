@@ -6,4 +6,6 @@ import Input from './input/Input';
 import MiniNav from './Comming Soon/MiniNav';
 import ErrorPage from './NotFound/ErrorPage';
 
-export { ComingSoon, MiniNav, BrandButton, Input, ErrorPage };
+export {
+  ComingSoon, MiniNav, BrandButton, Input, ErrorPage
+};
