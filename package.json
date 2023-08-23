@@ -1,0 +1,75 @@
+{
+  "name": "jobhunters-fe",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.3.0",
+    "@fortawesome/free-solid-svg-icons": "^6.3.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^13.0.0",
+    "@testing-library/user-event": "^13.2.1",
+    "aos": "^2.3.4",
+    "babel-plugin-macros": "^3.1.0",
+    "bootstrap": "^5.2.3",
+    "classnames": "^2.3.2",
+    "font-awesome-icons": "^1.6.0",
+    "framer-motion": "^10.12.16",
+    "icons": "^1.0.0",
+    "mdb-react-ui-kit": "^6.0.0",
+    "next": "latest",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "latest",
+    "react-icons": "^4.10.1",
+    "react-multi-carousel": "^2.8.3",
+    "react-multilevel-dropdown": "^4.0.0",
+    "react-query": "^3.39.2",
+    "react-step-progress-bar": "^1.0.3",
+    "react-to-print": "^2.14.12",
+    "sass": "^1.57.1",
+    "web-vitals": "^2.1.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/eslint-parser": "^7.22.9",
+    "@babel/plugin-syntax-jsx": "^7.22.5",
+    "@babel/preset-env": "^7.22.9",
+    "@babel/preset-react": "^7.22.5",
+    "autoprefixer": "^10.4.13",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-next": "^13.2.3",
+    "eslint-config-prettier": "^8.7.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "postcss": "^8.4.21",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "tailwindcss": "^3.2.7"
+  }
+}

@@ -1,0 +1,19 @@
+.pass-linter {
+  background-color: transparent;
+}
+
+.spinner_ajPY {
+  transform-origin: center;
+  animation: spinner_AtaB 0.75s infinite linear;
+}
+
+@keyframes spinner_AtaB {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.w_full {
+  display: flex;
+  gap: 10px;
+}

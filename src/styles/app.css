@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Jost", sans-serif;
+  line-height: 1.5;
+  font-size: 1.6rem;
+  font-weight: 200;
+  color: #181818;
+  overflow-x: hidden;
+}
+
+.pass-linter {
+  background-color: transparent;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a,
+button,
+textarea,
+input {
+  font-family: inherit;
+}
+
+a,
+button {
+  color: #fff;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li,
+ol li {
+  list-style: none;
+}
+
+/**
+* This is a variable font
+* You can controll variable axes as shown below:
+* font-variation-settings: 'wght' 700.0;
+*
+* available axes:
+
+* 'wght' (range from 200.0 to 700.0)
+
+*/
+@font-face {
+  font-family: "Jost";
+  src: url("/font/Jost-VariableFont_wght.ttf") format("truetype");
+  font-weight: 700;
+}
+
+.full-bleed {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+}
+
+/**
+ * FLUID TYPE
+ *
+ * Scale text based on viewport and the following variables. Props should be unitless, but will be converted
+ * to REM units. E.G '1' will be converted to '1rem'
+ *
+ * --fluid-type-min-size: The smallest font size. Default 1
+ * --fluid-type-max-size: The largest font size: Default 2
+ * --fluid-type-min-screen: The smallest viewport size that this works for: Default 20
+ * --fluid-type-max-screen: The largest viewport size that this works for: Default 88
+ */
+.fluid-type {
+  --fluid-type-min-size: 1;
+  --fluid-type-max-size: 2;
+  --fluid-type-min-screen: 20;
+  --fluid-type-max-screen: 88;
+
+  /* We multiply by 1rem to essentially stick a rem unit to a number. */
+  font-size: calc(var(--fluid-type-min-size) * 1rem + (var(--fluid-type-max-size) - var(--fluid-type-min-size)) * (100vw - var(--fluid-type-min-screen) * 1rem) / (var(--fluid-type-max-screen) - var(--fluid-type-min-screen)));
+}
+
+/*
+* SET LOCKS ON ELEMENTS
+*/
+h1.fluid-type {
+  --fluid-type-min-size: 2;
+  --fluid-type-max-size: 4;
+}
+
+h2.fluid-type {
+  --fluid-type-min-size: 1.5;
+  --fluid-type-max-size: 2.2;
+}

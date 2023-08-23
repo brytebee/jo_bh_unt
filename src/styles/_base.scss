@@ -1,0 +1,26 @@
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a,
+button,
+textarea,
+input {
+  font-family: inherit;
+}
+
+a,
+button {
+  color: #fff;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul li,
+ol li {
+  list-style: none;
+}

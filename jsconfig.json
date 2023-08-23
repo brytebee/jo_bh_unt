@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "baseUrl": "src",
+    "forceConsistentCasingInFileNames": false
+  },
+
+  "include": ["src", "src/components/landingPage/.jsx"],
+  "exclude": ["node_modules"]
+}
